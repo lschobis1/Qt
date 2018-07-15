@@ -25,4 +25,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        tst_myfirstunittesttest.cpp
+        tst_myfirstunittesttest.cpp \
+    ../MyFirstQmlProject/treeitem.cpp \
+    ../MyFirstQmlProject/treemodel.cpp
+
+HEADERS += \
+    ../MyFirstQmlProject/treeitem.h \
+    ../MyFirstQmlProject/treemodel.h \
+    ../MyFirstQmlProject/treeitem.h \
+    ../MyFirstQmlProject/treemodel.h
+
+RESOURCES += \
+    resources.qrc
